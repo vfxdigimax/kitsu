@@ -106,7 +106,7 @@
         <timesheet-list
           ref="timesheet-list"
           :tasks="loggableTodos"
-          :done-tasks="loggableDoneTasks"
+          :done-tasks="[]"
           :is-loading="loading.timesheets || isTodosLoading"
           :is-error="isTodosLoadingError"
           :days-off="daysOff"
